@@ -13,9 +13,14 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Common\Common.csproj" />
         <ProjectReference Include="..\Domain\Domain.csproj" />
-        <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Servicies\Auth\" />
+      <Folder Include="Servicies\Helpers\" />
+      <Folder Include="Servicies\Seeding\" />
+      <Folder Include="Servicies\Validations\" />
     </ItemGroup>
 
 </Project>

@@ -8,7 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EB4552BC-5017-4900-9D78-35F76A714A9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{809FD6D9-8B1D-4A0B-BFC0-88A59AD862C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{809FD6D9-8B1D-4A0B-BFC0-88A59AD862C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB4552BC-5017-4900-9D78-35F76A714A9D} = {EB4552BC-5017-4900-9D78-35F76A714A9D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
